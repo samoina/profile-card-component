@@ -4,23 +4,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Profile card component</title>
 </head>
 
 <body>
+  <img class="body__image body__image--top" src="/images/bg-pattern-top.svg" alt="Body background image at the top">
 
-  Victor Crest
-  26
-  London
+  <main class="main">
+    <h1 class="main__heading--sr">Profile card component</h1>
+    <div class="main__card">
+      <img class="main__image--bg" src="/images/bg-pattern-card.svg" alt="Background pattern card">
+      <img class="main__image" src="./images/image-victor.jpg" alt="An image of Victor">
+    </div>
 
-  80K
-  Followers
+    <div class="main__profile">
+      <div class="main__name">
+        <p><span class="main__name--bold">Victor Crest</span> <span class="main__name--text">26</span>
+        </p>
+        <p class="main__name--text">London</p>
+      </div>
 
-  803K
-  Likes
+      <hr>
+      
+      <div class="main__stats">
+        <div class="main__stats--details"><span class="main__name--bold">80K </span>
+          <span class="main__text--grey">Followers</span>
+        </div>
+        <div class="main__stats--details"><span class="main__name--bold">803K </span><span
+            class="main__text--grey">Likes</span></div>
+        <div class="main__stats--details"><span class="main__name--bold">1.4K </span>
+          <span class="main__text--grey">Photos</span>
+        </div>
 
-  1.4K
-  Photos
+      </div>
+
+    </div>
+
+  </main>
+
+  <img class="body__image body__image--bottom" src="/images/bg-pattern-bottom.svg"
+    alt="Body background image at the bottom">
+
+
+
+
 </body>
 
 </html>
